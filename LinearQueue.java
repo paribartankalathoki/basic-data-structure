@@ -84,6 +84,9 @@ public class LinearQueue {
         queue.enqueue(20);
         queue.enqueue(30);
         queue.enqueue(40);
+		queue.enqueue(50);
+		queue.enqueue(60);
+		
         queue.display(); // Output: Queue: 10 20 30 40
 
         queue.dequeue();
