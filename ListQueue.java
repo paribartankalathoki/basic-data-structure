@@ -12,6 +12,15 @@ public class ListQueue {
         this.elements = new ArrayList<>();
     }
 
+    public static void main(String[] args) {
+        ListQueue listQueue = new ListQueue();
+
+        listQueue.enqueue(10);
+
+        System.out.println(listQueue.size());
+
+    }
+
     public void enqueue(int element) {
         elements.add(element);
     }
@@ -36,11 +45,5 @@ public class ListQueue {
 
     public int size() {
         return elements.size();
-    }
-
-    public static void main(String[] args) {
-     ListQueue listQueue = new ListQueue();
-
-     listQueue.enqueue(10);
     }
 }
